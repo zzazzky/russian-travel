@@ -3,16 +3,10 @@
   margin: 0;
   padding: 0;
   align-self: end;
-  font-family: 'Inter', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.22;
   text-decoration: underline;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 

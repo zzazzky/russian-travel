@@ -1,5 +1,47 @@
 .cover__link {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+    align-self: stretch;
+    justify-self: stretch;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    /*Без индекса элемент уезжает под подложку*/
+    margin: 0 auto;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  /*Без индекса подложка накладывается поверх текста ссылки*/
+  transition: opacity 0.3s;
+}
+
+.cover__link:hover::before {
+  content: "";
+  position: absolute;
+  background-color: #2A2C2F;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  /*Без индекса подложка накладывается поверх текста ссылки*/
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+      max-width: 1184px;
+  }
 }

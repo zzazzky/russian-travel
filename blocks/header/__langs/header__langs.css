@@ -1,6 +1,9 @@
 .header__langs {
-margin: 0;
-padding: 0;
-justify-self: flex-end;
-align-self: center;
+  margin: 0;
+  padding: 0;
+  justify-self: flex-end;
+  align-self: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
