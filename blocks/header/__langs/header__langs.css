@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   justify-self: flex-end;
-  align-self: center;
+  /*Изменила настройки align-self для наибольшего приближения размещения языков в макете, до этого текст располагался чуть выше, чем по макету*/
+  align-self: flex-end;
   list-style: none;
   display: flex;
   flex-direction: row;

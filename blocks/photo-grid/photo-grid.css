@@ -4,12 +4,6 @@
   gap: 16px;
   justify-content: center;
   padding: 0 48px;
-  font-family: 'Inter', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
